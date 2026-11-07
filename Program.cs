@@ -91,11 +91,11 @@ namespace StudentCrudApp
             }
             else
             {
-                Console.WriteLine("{0,-5} {1,-20} {2,-15} {3,-5}", "ID", "Name", "Course", "Age");
+                Console.WriteLine("{0,-5} {1,-50} {2,-50} {3,-5}", "ID", "Name", "Course", "Age");
                 Console.WriteLine(new string('-', 50));
                 foreach (var s in students)
                 {
-                    Console.WriteLine("{0,-5} {1,-20} {2,-15} {3,-5}", s.Id, s.Name, s.Course, s.Age);
+                    Console.WriteLine("{0,-5} {1,-50} {2,-50} {3,-5}", s.Id, s.Name, s.Course, s.Age);
                 }
             }
 
