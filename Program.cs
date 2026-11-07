@@ -33,6 +33,10 @@ namespace StudentCrudApp
                 Console.WriteLine("3. Update Student (Update)");
                 Console.WriteLine("4. Delete Student (Delete)");
                 Console.WriteLine("5. Exit");
+                   Console.WriteLine("3. Update Student (Update)");
+                Console.WriteLine("4. Delete Student (Delete)");
+                Console.WriteLine("5. Exit");
+
                 Console.Write("Select an option (1-5): ");
 
                 switch (Console.ReadLine())
